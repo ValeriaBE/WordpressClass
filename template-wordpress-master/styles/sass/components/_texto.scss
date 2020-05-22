@@ -1,5 +1,50 @@
 .texto {
-    h2 {
-        color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.53;
+    }
+    &__content {
+        padding-top: 146px;
+        padding-bottom: 234px;
+        h2 {
+            font-family: "Montserrat", Arial;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 52px;
+            line-height: 63px;
+            letter-spacing: -1px;
+            color: #FFFFFF;
+            padding-right: col(19, 37);
+            padding-bottom: 32px;
+            strong {
+                font-weight: 600;
+            }
+        }
+        a {
+            font-family: "Lato", Arial;
+            font-style: 300;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #482C1B;
+            background: #FCC74F;
+            border-radius: 24px 0px;
+            display: block;
+            width: col(8, 37);
+            padding-top: 15px;
+            padding-bottom: 20px;
+            padding-right: col(1, 37);
+            padding-left: col(1, 37);
+        }
     }
 }

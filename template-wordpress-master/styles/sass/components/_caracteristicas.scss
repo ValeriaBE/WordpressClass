@@ -1,0 +1,51 @@
+.second {
+    padding-top: 26px;
+    padding-bottom: 43px;
+    border: 1px solid #E8E8E8;
+    border-radius: 0px 0px 192px 0px;
+    &__section {
+        margin-right: col(6, 37);
+        margin-left: col(6, 37);
+        h2 {
+            font-family: "Lato", Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 140%;
+            text-align: center;
+            letter-spacing: -1px;
+            color: #242A2D;
+            margin-bottom: 44px;
+            strong {
+                font-weight: 400;
+            }
+        }
+        &__repeater {
+            display: flex;
+            flex-flow: row;
+            &__content {
+                width: col(4, 25);
+                margin-right: col(3, 25);
+                text-align: center;
+                &:last-child {
+                    margin-right: 0;
+                }
+                img {
+                    width: auto;
+                    height: 80px;
+                    margin-bottom: 24px;
+                }
+                p {
+                    font-family: "Lato", Arial;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #767A7C;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}
