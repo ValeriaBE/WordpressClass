@@ -64,14 +64,14 @@ add_action( 'wp_enqueue_scripts', function() {
     get_template_directory_uri().'/scripts/main.min.js',
     array( 'jquery' ),
     $theme_ver,
-    false
+    false //para que vaya en el header
   );
 
   wp_enqueue_script( 'owl-carousel',
   get_template_directory_uri().'/scripts/owl.carousel.min.js',
   array( 'jquery' ),
   $theme_ver,
-  true
+  true //para que vaya en el footer
 );
 wp_enqueue_script( 'aos-script',
   get_template_directory_uri().'/scripts/aos.js',
