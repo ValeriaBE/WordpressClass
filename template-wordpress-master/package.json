@@ -5,10 +5,10 @@
   "author": "Scott Polhemus <scott@polhem.us>",
   "devDependencies": {
     "autoprefixer": "^6.1.0",
-    "browserify": "^11.2.0",
+    "browserify": "^17.0.0",
     "browserify-shim": "^3.8.11",
     "glob": "^5.0.15",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-livereload": "^3.8.1",
     "gulp-postcss": "^6.0.1",
     "gulp-rename": "^1.2.2",
